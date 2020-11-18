@@ -1,0 +1,13 @@
+.gifloader{
+    width: 300px;
+    margin: 0 auto;
+    height: 500px;
+}
+.loadergif{
+    height: 100%;
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+
