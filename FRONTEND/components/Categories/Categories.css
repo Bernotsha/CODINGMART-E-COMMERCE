@@ -1,0 +1,92 @@
+
+.categories {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.categories .container-fluid {
+	padding-right: 5px;
+}
+
+.categories__item {
+	height: 314px;
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.categories__item.categories__large__item {
+	height: 638px;
+	padding-left: 70px;
+}
+
+.categories__item.categories__large__item .categories__text {
+	max-width: 480px;
+}
+
+.categories__item.categories__large__item .categories__text p {
+	margin-bottom: 15px;
+}
+
+.categories__text h1 {
+	font-family: "Cookie", cursive;
+	color: #111111;
+	margin-bottom: 5px;
+}
+
+.categories__text h4 {
+	color: #111111;
+	font-weight: 700;
+}
+
+.categories__text p {
+    font-family: 'Playball';font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.categories__text a {
+	font-size: 14px;
+	color: #111111;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: relative;
+	padding: 0 0 3px;
+	display: inline-block;
+}
+.categories__text a:hover{
+    text-decoration: none;
+    outline: none;
+}
+
+.categories__text a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background: #ca1515;
+	content: "";
+}
+.image1{
+    background-image: url('../Categories/images/category-1.jpg');
+    background-size: cover;
+}
+.image2{
+    background-image: url('../Categories/images/category-2.jpg');
+    background-size: cover;
+}
+.image3{
+    background-image: url('../Categories/images/category-3.jpg');
+    background-size: cover;
+}
+.image4{
+    background-image: url('../Categories/images/category-4.jpg');
+    background-size: cover;
+}
+.image5{
+    background-image: url('../Categories/images/category-5.jpg');
+    background-size: cover;
+}
+

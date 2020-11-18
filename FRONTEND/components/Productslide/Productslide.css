@@ -1,0 +1,49 @@
+
+.banner {
+	height: 500px;
+}
+
+.banner__text span {
+	font-size: 18px;
+	color: #ca1515;
+	text-transform: uppercase;
+}
+
+.banner__text h1 {
+	font-size: 80px;
+	color: #111111;
+	margin-bottom: 15px;
+}
+
+.banner__text a {
+	font-size: 14px;
+	color: #111111;
+	text-transform: uppercase;
+	font-weight: 700;
+	position: relative;
+	padding: 0 0 3px;
+	display: inline-block;
+}
+
+.banner__text a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background: #ca1515;
+	content: "";
+}
+
+.banner__slider {
+	text-align: center;
+	padding: 150px 0 0;
+}
+
+
+
+
+
+.set1{
+    background: url('../Carousel//images/banner-1.jpg');
+}

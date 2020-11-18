@@ -1,0 +1,107 @@
+.registration{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.register-text{
+    margin-top: 50px;
+	border-bottom: none;
+	text-align: center;
+    position: relative;
+    font-size: 20px;
+	margin-bottom: 40px;
+}
+.register-text::before {
+	position: absolute;
+	left: 0;
+	top: 13px;
+	height: 1px;
+	width: 335px;
+	background: #e1e1e1;
+	content: "";
+}
+.register-text::after {
+	position: absolute;
+	right: 0;
+	top: 13px;
+	height: 1px;
+	width: 400px;
+	background: #e1e1e1;
+	content: "";
+}
+input{
+    padding: 10px 15px;
+  }
+  .control-label{
+    font-weight: normal;
+  }
+  .submit{
+    border: none;
+    background: rgba(32, 32, 32, 0.849);
+    color: white;
+    outline: none;
+    font-weight: normal;
+  }
+  .submit:hover{
+    border: none;
+    outline: none;
+    color: white;
+  }
+  .control-group{
+    padding: 20px 0px;
+  }
+  .singleaddon{
+    text-align: center;
+  }
+  .singleaddon button{
+    border: none;
+    outline: none;
+  }
+ .google{
+    width: 200px;
+    color: white;
+    padding: 19px;
+    margin-right: 20px;
+    background: tomato;
+  }
+  #signcredentials{
+    display: none;
+  }
+
+  input[type="text"]:focus
+ {
+  border-color: rgba(236, 118, 82, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+input[type="password"]:focus
+{
+ border-color: rgba(236, 118, 82, 0.8);
+ outline: 0;
+ outline: thin dotted \9;
+
+ -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+         box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+input[type='text']
+{
+  border: none;
+  outline: none;
+}
+input[type='password']
+{
+  border: none;
+  outline: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .google{
+    margin-top: 20px;
+  }
+}
+
